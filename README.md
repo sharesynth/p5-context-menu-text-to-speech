@@ -3,4 +3,4 @@ Highlight text on the page, right click and select "Speak" to hear it read back 
 
 Known issues right now are:
 - Firefox generates ReferenceError: SpeechSynthesisUtterance is not defined
-- Chrome context menu polyfill overtakes default context menu
+- Context menu doesn't have all the options of the real context menu
