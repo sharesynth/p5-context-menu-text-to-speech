@@ -2,5 +2,4 @@
 Highlight text on the page, right click and select "Speak" to hear it read back to you (Currently only works in chrome).
 
 Known issues right now are:
-- Firefox generates ReferenceError: SpeechSynthesisUtterance is not defined
 - Context menu doesn't have all the options of the real context menu
