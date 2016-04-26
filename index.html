@@ -1,0 +1,45 @@
+<!doctype html>
+	<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Context Menu - Text To Speech</title>
+		<meta name="description" content="Context Menu - Text To Speech">
+		<meta name="author" content="Jeremy Sykes">
+		<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<link type="text/css" rel="stylesheet" href="css/contrib/jquery.contextMenu.min.css"/>
+		<style>
+		.context-menu-one {
+			width: 300px;
+		    margin: 0px auto;
+		    background-color: whitesmoke;
+		    padding: 15px;
+		    font-family: Helvetica;
+		    font-size: 14px;
+		    line-height: 24px;
+		    -webkit-border-radius: 5px 5px 5px 5px;
+			border-radius: 5px 5px 5px 5px;
+			-webkit-box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.05);
+			box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.05);
+		}
+		</style>
+	</head>
+	<body contextmenu="menu">
+		<menu type="context" id="menu" class="menu">
+		    <menuitem label="Speak" onclick="saySomething()" icon="image/icon.png"></menuitem>
+		</menu>
+		<div class="context-menu-one">
+			<h3>Highlight Some Text, Right Click and Select "Speak"</h3>
+			<p>Pour-over pitchfork quinoa, kale chips mlkshk disrupt artisan. Retro pour-over locavore fap wolf. Craft beer pickled salvia banjo. Readymade disrupt authentic, blue bottle neutra austin skateboard pabst blog. Tofu raw denim lo-fi kitsch before they sold out locavore twee, disrupt fap hoodie affogato church-key XOXO. Man bun viral heirloom, sriracha austin neutra scenester fashion axe celiac ethical farm-to-table umami drinking vinegar selfies. Locavore keffiyeh blog food truck trust fund offal.</p>
+		</div>
+
+		<script src="js/contrib/jquery.js"></script>
+		<script src="js/contrib/jquery.ui.position.min.js"></script>
+		<script src="js/contrib/jquery.contextMenu.min.js"></script>
+		<script src="js/contrib/p5.min.js"></script>
+		<script src="js/contrib/p5.dom.js"></script>
+		<script src="js/contrib/p5.speech.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>
